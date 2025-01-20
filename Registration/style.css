@@ -1,0 +1,102 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 2000px;
+      justify-content: center;
+}
+
+#parent {
+      width: 600px;
+
+      border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+}
+
+header {
+      display: flex;
+      flex-direction: start;
+      align-items: start;
+      width: 100%;
+      padding-left: 30px;
+      padding-top: 20px;
+}
+
+.user-name {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+
+      form {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            gap: 10px;
+
+            input {
+                  width: 260px;
+                  height: 35px;
+            }
+      }
+}
+
+.email {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 30px;
+      gap: 10px;
+
+      input {
+            height: 35px;
+      }
+}
+.type{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      padding: 0 35px;
+      form{
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            input{
+                  width: 100%;
+                  height: 35px;
+            }
+      }
+}
+.message{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 35px;
+      gap: 10px;
+
+      textarea{
+            height: 100px;
+      }
+}
+.check{
+      width: 100%;
+      padding: 0 35px;
+}
+button{
+      width: 90%;
+      
+      height: 40px;
+      background-color: rgb(28, 73, 28);
+      color: #fff;
+      margin-bottom: 30px;
+      border-radius: 5px;
+}
